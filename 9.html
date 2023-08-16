@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 9 </title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<style>
+  body {
+    background-color: black;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style: none;
+    display: block;
+    padding: 12px 10px;
+  }
+
+  .container {
+    width: 400px;
+    height: 500px;
+    background-color: grey;
+  }
+  div{
+    margin-left: 20px;
+  }
+  ul{
+    display: none;
+  }
+  span:hover + ul{
+    display: block;
+  }
+  
+</style>
+
+<body>
+  <main class="container">
+    <div>
+      <span class="material-symbols-outlined">
+        close
+      </span>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Info</li>
+        <li>Contact</li>
+        <li>Show me more</li>
+      </ul>
+    </div>
+  </main>
+
+</body>
+
+</html>
